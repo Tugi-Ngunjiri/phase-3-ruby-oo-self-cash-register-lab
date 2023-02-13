@@ -3,7 +3,7 @@ class Cash_register
 end
 
     def initialize(cash = 5000)
-        cash = @cash
+        @cash = cash
         cash.new = ( 5000 ksh)
         # => "5000 ksh"
     end
@@ -18,7 +18,7 @@ cash Cash_register
  attr_accessor : void_last_transaction
 
  def void_last_transaction
-    void_last_transaction = @void_last_transaction
+    @void_last_transaction = void_last_transaction
     void_last_transaction.new =  "Removed  Void Transaction"
 
     # => "Removed Void Transaction
